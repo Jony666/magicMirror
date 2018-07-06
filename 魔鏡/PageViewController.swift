@@ -9,7 +9,7 @@
 import UIKit
 
 class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
-
+    
     var list = [UIViewController]()
     
     override func viewDidLayoutSubviews() {
@@ -28,20 +28,21 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
         // Do any additional setup after loading the view.
         // vc1 ~ vc6 為介紹頁面 ， vc7 為開始介面。
         
-        let vc1 = storyboard?.instantiateViewController(withIdentifier: "vc1")
+        self.view.backgroundColor = UIColor.white
+        
         let vc2 = storyboard?.instantiateViewController(withIdentifier: "vc2")
         let vc3 = storyboard?.instantiateViewController(withIdentifier: "vc3")
         let vc4 = storyboard?.instantiateViewController(withIdentifier: "vc4")
         let vc5 = storyboard?.instantiateViewController(withIdentifier: "vc5")
         let vc6 = storyboard?.instantiateViewController(withIdentifier: "vc6")
+        let vc7 = storyboard?.instantiateViewController(withIdentifier: "vc7")
         
-        
-        list.append(vc1!)
         list.append(vc2!)
         list.append(vc3!)
         list.append(vc4!)
         list.append(vc5!)
         list.append(vc6!)
+        list.append(vc7!)
         
         
         

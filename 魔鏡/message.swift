@@ -1,34 +1,20 @@
 //
-//  display.swift
+//  message.swift
 //  魔鏡
 //
-//  Created by Jony Wang on 2018/7/5.
+//  Created by Jony Wang on 2018/7/6.
 //  Copyright © 2018年 Jony. All rights reserved.
 //
 
 import UIKit
-import WebKit
 
-class display: UIViewController, WKNavigationDelegate {
-    
-    @IBOutlet weak var display_view: WKWebView!
-    @IBOutlet weak var activity: UIActivityIndicatorView!
+class message: UIViewController {
 
-    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        activity.stopAnimating()
-        }
-  
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let url = URL(string: "http://172.20.10.2:8080")
-        let request = URLRequest(url: url!)
-        
-        display_view.navigationDelegate = self
-        display_view.load(request)
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
+        // Do any additional setup after loading the view.
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

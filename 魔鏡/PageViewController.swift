@@ -30,19 +30,19 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
         
         self.view.backgroundColor = UIColor.white
                 
-        let vc2 = storyboard?.instantiateViewController(withIdentifier: "vc2")
+        //let vc2 = storyboard?.instantiateViewController(withIdentifier: "vc2")
         let vc3 = storyboard?.instantiateViewController(withIdentifier: "vc3")
         let vc4 = storyboard?.instantiateViewController(withIdentifier: "vc4")
         let vc5 = storyboard?.instantiateViewController(withIdentifier: "vc5")
         let vc6 = storyboard?.instantiateViewController(withIdentifier: "vc6")
-        let vc7 = storyboard?.instantiateViewController(withIdentifier: "vc7")
+        //let vc7 = storyboard?.instantiateViewController(withIdentifier: "vc7")
         
-        list.append(vc2!)
+        //list.append(vc2!)
         list.append(vc3!)
         list.append(vc4!)
         list.append(vc5!)
         list.append(vc6!)
-        list.append(vc7!)
+        //list.append(vc7!)
         
         
         

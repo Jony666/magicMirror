@@ -9,8 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-  
+    var isOn = true
+   
+    @IBAction func `switch`(_ sender: Any) {
+        if isOn {
+            let url = URL(string: "http://192.168.211.148:8080/remote?action=MONITOROFF")
+            let _ = URLRequest(url: url!)
+            isOn = !isOn
+            
+        } else {
+            let url = URL(string: "http://192.168.211.148:8080/remote?action=MONITORON")
+            let _ = URLRequest(url: url!)
+            isOn = !isOn
+        }
+    }
+    
+    
     override func viewDidLoad() {
       
         

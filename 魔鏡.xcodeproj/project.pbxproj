@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F0192CEE20EF3FD1003EC078 /* message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0192CED20EF3FD0003EC078 /* message.swift */; };
+		F0192CF220F08700003EC078 /* exterior.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0192CF120F08700003EC078 /* exterior.swift */; };
 		F020AB9D20EDB34C00319565 /* display.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020AB9C20EDB34C00319565 /* display.swift */; };
 		F020AB9F20EDB86000319565 /* setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020AB9E20EDB86000319565 /* setting.swift */; };
 		F020ABA520EDC54C00319565 /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020ABA420EDC54C00319565 /* swift+gif.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		F0192CED20EF3FD0003EC078 /* message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = message.swift; sourceTree = "<group>"; };
+		F0192CF120F08700003EC078 /* exterior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exterior.swift; sourceTree = "<group>"; };
 		F020AB9C20EDB34C00319565 /* display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = display.swift; sourceTree = "<group>"; };
 		F020AB9E20EDB86000319565 /* setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setting.swift; sourceTree = "<group>"; };
 		F020ABA420EDC54C00319565 /* swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift+gif.swift"; sourceTree = "<group>"; };
@@ -69,12 +71,13 @@
 				F042FB0920EB17E3005417A3 /* Assets.xcassets */,
 				F042FB0B20EB17E3005417A3 /* LaunchScreen.storyboard */,
 				F042FB0E20EB17E3005417A3 /* Info.plist */,
-				F042FB1420EB18A2005417A3 /* PageViewController.swift */,
 				F042FB0420EB17DB005417A3 /* ViewController.swift */,
+				F042FB1420EB18A2005417A3 /* PageViewController.swift */,
 				F020AB9C20EDB34C00319565 /* display.swift */,
 				F020AB9E20EDB86000319565 /* setting.swift */,
 				F020ABA420EDC54C00319565 /* swift+gif.swift */,
 				F0192CED20EF3FD0003EC078 /* message.swift */,
+				F0192CF120F08700003EC078 /* exterior.swift */,
 			);
 			path = "魔鏡";
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				F0192CEE20EF3FD1003EC078 /* message.swift in Sources */,
 				F042FB1520EB18A2005417A3 /* PageViewController.swift in Sources */,
 				F020AB9F20EDB86000319565 /* setting.swift in Sources */,
+				F0192CF220F08700003EC078 /* exterior.swift in Sources */,
 				F042FB0520EB17DB005417A3 /* ViewController.swift in Sources */,
 				F020AB9D20EDB34C00319565 /* display.swift in Sources */,
 				F020ABA520EDC54C00319565 /* swift+gif.swift in Sources */,

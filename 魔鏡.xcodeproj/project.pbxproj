@@ -11,13 +11,13 @@
 		F0192CF220F08700003EC078 /* exterior.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0192CF120F08700003EC078 /* exterior.swift */; };
 		F020AB9D20EDB34C00319565 /* display.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020AB9C20EDB34C00319565 /* display.swift */; };
 		F020AB9F20EDB86000319565 /* setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020AB9E20EDB86000319565 /* setting.swift */; };
-		F020ABA520EDC54C00319565 /* swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020ABA420EDC54C00319565 /* swift+gif.swift */; };
 		F042FB0320EB17DB005417A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F042FB0220EB17DB005417A3 /* AppDelegate.swift */; };
 		F042FB0520EB17DB005417A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F042FB0420EB17DB005417A3 /* ViewController.swift */; };
 		F042FB0820EB17DB005417A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F042FB0620EB17DB005417A3 /* Main.storyboard */; };
 		F042FB0A20EB17E3005417A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F042FB0920EB17E3005417A3 /* Assets.xcassets */; };
 		F042FB0D20EB17E3005417A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F042FB0B20EB17E3005417A3 /* LaunchScreen.storyboard */; };
 		F042FB1520EB18A2005417A3 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F042FB1420EB18A2005417A3 /* PageViewController.swift */; };
+		F098CD6D20F3410000D37600 /* do_things.swift in Sources */ = {isa = PBXBuildFile; fileRef = F098CD6C20F3410000D37600 /* do_things.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,6 @@
 		F0192CF120F08700003EC078 /* exterior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exterior.swift; sourceTree = "<group>"; };
 		F020AB9C20EDB34C00319565 /* display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = display.swift; sourceTree = "<group>"; };
 		F020AB9E20EDB86000319565 /* setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setting.swift; sourceTree = "<group>"; };
-		F020ABA420EDC54C00319565 /* swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift+gif.swift"; sourceTree = "<group>"; };
 		F042FAFF20EB17DB005417A3 /* 魔鏡.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "魔鏡.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F042FB0220EB17DB005417A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F042FB0420EB17DB005417A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		F042FB0C20EB17E3005417A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F042FB0E20EB17E3005417A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F042FB1420EB18A2005417A3 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		F098CD6C20F3410000D37600 /* do_things.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = do_things.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +75,9 @@
 				F042FB1420EB18A2005417A3 /* PageViewController.swift */,
 				F020AB9C20EDB34C00319565 /* display.swift */,
 				F020AB9E20EDB86000319565 /* setting.swift */,
-				F020ABA420EDC54C00319565 /* swift+gif.swift */,
 				F0192CED20EF3FD0003EC078 /* message.swift */,
 				F0192CF120F08700003EC078 /* exterior.swift */,
+				F098CD6C20F3410000D37600 /* do_things.swift */,
 			);
 			path = "魔鏡";
 			sourceTree = "<group>";
@@ -154,12 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0192CEE20EF3FD1003EC078 /* message.swift in Sources */,
+				F098CD6D20F3410000D37600 /* do_things.swift in Sources */,
 				F042FB1520EB18A2005417A3 /* PageViewController.swift in Sources */,
 				F020AB9F20EDB86000319565 /* setting.swift in Sources */,
 				F0192CF220F08700003EC078 /* exterior.swift in Sources */,
 				F042FB0520EB17DB005417A3 /* ViewController.swift in Sources */,
 				F020AB9D20EDB34C00319565 /* display.swift in Sources */,
-				F020ABA520EDC54C00319565 /* swift+gif.swift in Sources */,
 				F042FB0320EB17DB005417A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

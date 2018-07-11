@@ -18,6 +18,8 @@
 		F042FB0D20EB17E3005417A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F042FB0B20EB17E3005417A3 /* LaunchScreen.storyboard */; };
 		F042FB1520EB18A2005417A3 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F042FB1420EB18A2005417A3 /* PageViewController.swift */; };
 		F098CD6D20F3410000D37600 /* do_things.swift in Sources */ = {isa = PBXBuildFile; fileRef = F098CD6C20F3410000D37600 /* do_things.swift */; };
+		F0ECFD3B20F5CFBA00F780A7 /* example.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F0ECFD3A20F5CFB900F780A7 /* example.mp4 */; };
+		F0ECFD3D20F5D0B900F780A7 /* demo_video.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ECFD3C20F5D0B900F780A7 /* demo_video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		F042FB0E20EB17E3005417A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F042FB1420EB18A2005417A3 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		F098CD6C20F3410000D37600 /* do_things.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = do_things.swift; sourceTree = "<group>"; };
+		F0ECFD3A20F5CFB900F780A7 /* example.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = example.mp4; sourceTree = "<group>"; };
+		F0ECFD3C20F5D0B900F780A7 /* demo_video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 		F042FAF620EB17DA005417A3 = {
 			isa = PBXGroup;
 			children = (
+				F0ECFD3A20F5CFB900F780A7 /* example.mp4 */,
 				F042FB0120EB17DB005417A3 /* 魔鏡 */,
 				F042FB0020EB17DB005417A3 /* Products */,
 			);
@@ -78,6 +83,7 @@
 				F0192CED20EF3FD0003EC078 /* message.swift */,
 				F0192CF120F08700003EC078 /* exterior.swift */,
 				F098CD6C20F3410000D37600 /* do_things.swift */,
+				F0ECFD3C20F5D0B900F780A7 /* demo_video.swift */,
 			);
 			path = "魔鏡";
 			sourceTree = "<group>";
@@ -143,6 +149,7 @@
 				F042FB0D20EB17E3005417A3 /* LaunchScreen.storyboard in Resources */,
 				F042FB0A20EB17E3005417A3 /* Assets.xcassets in Resources */,
 				F042FB0820EB17DB005417A3 /* Main.storyboard in Resources */,
+				F0ECFD3B20F5CFBA00F780A7 /* example.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0192CEE20EF3FD1003EC078 /* message.swift in Sources */,
+				F0ECFD3D20F5D0B900F780A7 /* demo_video.swift in Sources */,
 				F098CD6D20F3410000D37600 /* do_things.swift in Sources */,
 				F042FB1520EB18A2005417A3 /* PageViewController.swift in Sources */,
 				F020AB9F20EDB86000319565 /* setting.swift in Sources */,

@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Demo video-->
         <scene sceneID="Mre-1c-mnP">
             <objects>
-                <viewController storyboardIdentifier="vc3" id="2zb-0t-60z" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="vc3" id="2zb-0t-60z" customClass="demo_video" customModule="魔鏡" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gdc-Cd-MjI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,6 +54,14 @@
                                         </attributedString>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZK-Ue-76I">
+                                        <rect key="frame" x="158" y="552" width="58" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="player"/>
+                                        <connections>
+                                            <action selector="exterior_video:" destination="2zb-0t-60z" eventType="touchUpInside" id="QaB-cj-Feh"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </view>
                         </subviews>
@@ -197,12 +205,12 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DUk-jx-TgM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1698.4000000000001" y="580.65967016491754"/>
+            <point key="canvasLocation" x="-1698" y="582"/>
         </scene>
-        <!--View Controller-->
+        <!--Demo video-->
         <scene sceneID="Rob-eW-T5E">
             <objects>
-                <viewController storyboardIdentifier="vc5" id="iYc-cl-kkU" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="vc5" id="iYc-cl-kkU" customClass="demo_video" customModule="魔鏡" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rFy-jb-OaA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -219,7 +227,7 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cP3-yi-Feq">
-                                <rect key="frame" x="36.5" y="369" width="302" height="192"/>
+                                <rect key="frame" x="37" y="369" width="302" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="在這個介面裡，我們可以針對幾個常">
@@ -360,6 +368,14 @@ Cg
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NXn-zL-fP4">
+                                <rect key="frame" x="158" y="552" width="58" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="player"/>
+                                <connections>
+                                    <action selector="display_video:" destination="iYc-cl-kkU" eventType="touchUpInside" id="o7S-C1-04F"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="agG-eJ-wi8"/>
@@ -908,10 +924,10 @@ Cg
             </objects>
             <point key="canvasLocation" x="1132" y="580.65967016491754"/>
         </scene>
-        <!--View Controller-->
+        <!--Demo video-->
         <scene sceneID="oeL-0r-8Rg">
             <objects>
-                <viewController storyboardIdentifier="vc4" id="lc9-Tr-AyK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="vc4" id="lc9-Tr-AyK" customClass="demo_video" customModule="魔鏡" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DQy-mx-XOK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -945,6 +961,14 @@ Cg
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ih0-HJ-fWz">
+                                <rect key="frame" x="158" y="552" width="58" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="player"/>
+                                <connections>
+                                    <action selector="message_video:" destination="lc9-Tr-AyK" eventType="touchUpInside" id="5Qe-Zr-UaW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="KIe-UR-wCm"/>
@@ -961,9 +985,10 @@ Cg
         <image name="book" width="256" height="256"/>
         <image name="check" width="256" height="256"/>
         <image name="green" width="30" height="30"/>
-        <image name="home" width="48" height="48"/>
+        <image name="home" width="64" height="64"/>
         <image name="message" width="512" height="512"/>
         <image name="note" width="390" height="670"/>
+        <image name="player" width="64" height="64"/>
         <image name="red" width="30" height="30"/>
         <image name="setting" width="200" height="200"/>
         <image name="stop" width="512" height="512"/>

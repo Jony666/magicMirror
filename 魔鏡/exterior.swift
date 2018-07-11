@@ -9,7 +9,19 @@
 import UIKit
 
 class exterior: UIViewController {
-
+    @IBOutlet weak var light_slider: UISlider!
+    @IBAction func select_light_slider(_ sender: Any) {
+        light_slider.value = roundf(light_slider.value)
+    }
+    @IBOutlet weak var font_size_slider: UISlider!
+    @IBAction func select_font_size_slider(_ sender: Any) {
+        font_size_slider.value = roundf(font_size_slider.value)
+    }
+    @IBOutlet weak var font_color_slider: UISlider!
+    @IBAction func font_color_slider(_ sender: Any) {
+        font_color_slider.value = roundf(font_color_slider.value)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -21,6 +21,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
             }
         }
     }
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,8 +29,13 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
         // Do any additional setup after loading the view.
         // vc1 ~ vc6 為介紹頁面 ， vc7 為開始介面。
         
-        self.view.backgroundColor = UIColor.white
-                
+        view.backgroundColor = UIColor.white
+//    
+//        let imageView = UIImageView(image: UIImage(named: "note"))
+//        imageView.frame = view.bounds
+//        view.addSubview(imageView)
+//        
+        
         //let vc2 = storyboard?.instantiateViewController(withIdentifier: "vc2")
         let vc3 = storyboard?.instantiateViewController(withIdentifier: "vc3")
         let vc4 = storyboard?.instantiateViewController(withIdentifier: "vc4")
@@ -43,6 +49,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource {
         list.append(vc5!)
         list.append(vc6!)
         //list.append(vc7!)
+        
         
         
         

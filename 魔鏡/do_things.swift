@@ -10,9 +10,9 @@ import UIKit
 
 class do_things: UIViewController {
     @IBOutlet weak var content: UITextView!
-    @IBOutlet weak var my_title: UITextView!
-    
-    
+    let datePicker = UIDatePicker()
+    @IBOutlet weak var content_text: UITextField!
+    @IBOutlet weak var myTitle: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,15 +21,45 @@ class do_things: UIViewController {
         content.layer.cornerRadius = 8
         content.layer.borderColor = UIColor.lightGray.cgColor
         
-        my_title.layer.borderWidth = 0.5
-        my_title.layer.cornerRadius = 5
-        my_title.layer.borderColor = UIColor.lightGray.cgColor
+        myTitle.layer.borderWidth = 0.5
+        myTitle.layer.cornerRadius = 5
+        myTitle.layer.borderColor = UIColor.lightGray.cgColor
         
-        self.hideKeyboardWhenTappedAround() 
+        datePicker.locale = Locale(identifier: "zh_TW")
+        createDatePicker()
         
+        self.hideKeyboardWhenTappedAround()
+
+    }
+    func createDatePicker () {
+        datePicker.datePickerMode = .dateAndTime
+        content_text.inputView = datePicker
+        
+        let toolbar = UIToolbar()
+        toolbar.sizeToFit()
+        
+        let button = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(doneClicked))
+        
+        
+        let goRight = UIBarButtonItem(barButtonSystemItem:     UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil)
+        toolbar.setItems([goRight, button], animated: true)
+        content_text.inputAccessoryView = toolbar
+    }
+    @objc func doneClicked () {
+        let dateForatter = DateFormatter()
+        dateForatter.dateStyle = .medium
+        dateForatter.timeStyle = .medium
+        content_text.text = dateForatter.string(from: datePicker.date)
+        self.view.endEditing(true)
     }
   
-   
+    @IBAction func confirm(_ sender: Any) {
+        // 確認送出資料
+    }
+    @IBAction func stop(_ sender: Any) {
+        // 取消通知視窗
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

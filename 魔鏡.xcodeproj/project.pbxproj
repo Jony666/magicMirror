@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0192CEE20EF3FD1003EC078 /* message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0192CED20EF3FD0003EC078 /* message.swift */; };
 		F0192CF220F08700003EC078 /* exterior.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0192CF120F08700003EC078 /* exterior.swift */; };
 		F020AB9D20EDB34C00319565 /* display.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020AB9C20EDB34C00319565 /* display.swift */; };
 		F020AB9F20EDB86000319565 /* setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020AB9E20EDB86000319565 /* setting.swift */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F0192CED20EF3FD0003EC078 /* message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = message.swift; sourceTree = "<group>"; };
 		F0192CF120F08700003EC078 /* exterior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exterior.swift; sourceTree = "<group>"; };
 		F020AB9C20EDB34C00319565 /* display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = display.swift; sourceTree = "<group>"; };
 		F020AB9E20EDB86000319565 /* setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setting.swift; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				F042FB1420EB18A2005417A3 /* PageViewController.swift */,
 				F020AB9C20EDB34C00319565 /* display.swift */,
 				F020AB9E20EDB86000319565 /* setting.swift */,
-				F0192CED20EF3FD0003EC078 /* message.swift */,
 				F0192CF120F08700003EC078 /* exterior.swift */,
 				F098CD6C20F3410000D37600 /* do_things.swift */,
 				F0ECFD3C20F5D0B900F780A7 /* demo_video.swift */,
@@ -160,7 +157,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0192CEE20EF3FD1003EC078 /* message.swift in Sources */,
 				F0ECFD3D20F5D0B900F780A7 /* demo_video.swift in Sources */,
 				F098CD6D20F3410000D37600 /* do_things.swift in Sources */,
 				F042FB1520EB18A2005417A3 /* PageViewController.swift in Sources */,

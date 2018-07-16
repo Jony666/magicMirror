@@ -16,21 +16,21 @@ class exterior: UIViewController {
 //
         switch light_slider.value {
         case 1:
-            let url = URL(string: "http://172.20.10.5:8080/remote?action=BRIGHTNESS&value=40")
+            let url = URL(string: "http://172.20.10.2:8080/remote?action=BRIGHTNESS&value=40")
                 do {
                     let _ = try String(contentsOf: url!)
                 } catch {
                     print(error)
                 }
         case 2:
-            let url = URL(string: "http://172.20.10.5:8080/remote?action=BRIGHTNESS&value=80")
+            let url = URL(string: "http://172.20.10.2:8080/remote?action=BRIGHTNESS&value=80")
             do {
                 let _ = try String(contentsOf: url!)
             } catch {
                 print(error)
             }
         case 3:
-            let url = URL(string: "http://172.20.10.5:8080/remote?action=BRIGHTNESS&value=120")
+            let url = URL(string: "http://172.20.10.2:8080/remote?action=BRIGHTNESS&value=120")
             do {
                 let _ = try String(contentsOf: url!)
             } catch {
@@ -38,21 +38,21 @@ class exterior: UIViewController {
             }
             
         case 4:
-            let url = URL(string: "http://172.20.10.5:8080/remote?action=BRIGHTNESS&value=160")
+            let url = URL(string: "http://172.20.10.2:8080/remote?action=BRIGHTNESS&value=160")
             do {
                 let _ = try String(contentsOf: url!)
             } catch {
                 print(error)
             }
         case 5:
-            let url = URL(string: "http://172.20.10.5:8080/remote?action=BRIGHTNESS&value=200")
+            let url = URL(string: "http://172.20.10.2:8080/remote?action=BRIGHTNESS&value=200")
             do {
                 let _ = try String(contentsOf: url!)
             } catch {
                 print(error)
             }
         default:
-            let url = URL(string: "http://172.20.10.5:8080/remote?action=BRIGHTNESS&value=100")
+            let url = URL(string: "http://172.20.10.2:8080/remote?action=BRIGHTNESS&value=100")
             do {
                 let _ = try String(contentsOf: url!)
             } catch {
@@ -73,21 +73,21 @@ class exterior: UIViewController {
         font_color_slider.value = roundf(font_color_slider.value)
         switch font_color_slider.value {
         case 1:
-            let url = URL(string: "http://172.20.10.5/cgi-bin/editCustomCss.py?colour=pink")
+            let url = URL(string: "http://172.20.10.2/cgi-bin/editCustomCss.py?colour=pink")
             do {
                 let _ = try String(contentsOf: url!)
             } catch {
                 print(error)
             }
         case 2:
-            let url = URL(string: "http://172.20.10.5/cgi-bin/editCustomCss.py?colour=blue")
+            let url = URL(string: "http://172.20.10.2/cgi-bin/editCustomCss.py?colour=blue")
             do {
                 let _ = try String(contentsOf: url!)
             } catch {
                 print(error)
             }
         case 3:
-            let url = URL(string: "http://172.20.10.5/cgi-bin/editCustomCss.py")
+            let url = URL(string: "http://172.20.10.2/cgi-bin/editCustomCss.py")
             do {
                 let _ = try String(contentsOf: url!)
             } catch {
@@ -95,14 +95,14 @@ class exterior: UIViewController {
             }
 
         case 4:
-            let url = URL(string: "http://172.20.10.5/cgi-bin/editCustomCss.py?colour=yellow")
+            let url = URL(string: "http://172.20.10.2/cgi-bin/editCustomCss.py?colour=yellow")
             do {
                 let _ = try String(contentsOf: url!)
             } catch {
                 print(error)
             }
         case 5:
-            let url = URL(string: "http://172.20.10.5/cgi-bin/editCustomCss.py?colour=lightgreen")
+            let url = URL(string: "http://172.20.10.2/cgi-bin/editCustomCss.py?colour=lightgreen")
             do {
                 let _ = try String(contentsOf: url!)
             } catch {
@@ -119,7 +119,7 @@ class exterior: UIViewController {
     }
     
     @IBAction func apply(_ sender: UIButton) {
-        let url = URL(string: "http://172.20.10.5/cgi-bin/restartTheMirror.cgi")
+        let url = URL(string: "http://172.20.10.2/cgi-bin/restartTheMirror.cgi")
         do {
             let _ = try String(contentsOf: url!)
         } catch {

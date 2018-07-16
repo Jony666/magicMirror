@@ -13,7 +13,7 @@ class ViewController: UIViewController {
    
     @IBAction func `switch`(_ sender: Any) {
         if isOn {
-            let url = URL(string: "http://172.20.10.5:8080/remote?action=MONITORON")
+            let url = URL(string: "http://172.20.10.2:8080/remote?action=MONITORON")
             do {
                 let _ = try String(contentsOf: url!)
             } catch {
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
             isOn = !isOn
             
         } else {
-            let url = URL(string: "http://172.20.10.5:8080/remote?action=MONITOROFF")
+            let url = URL(string: "http://172.20.10.2:8080/remote?action=MONITOROFF")
             do {
                 let _ = try String(contentsOf: url!)
             } catch {

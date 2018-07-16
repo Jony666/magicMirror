@@ -21,7 +21,7 @@ class setting: UIViewController, WKNavigationDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url = URL(string: "http://172.20.10.5:8080/remote.html#settings-menu")
+        let url = URL(string: "http://172.20.10.2:8080/remote.html#settings-menu")
         let request = URLRequest(url: url!)
         setting_view.navigationDelegate = self
         setting_view.load(request)

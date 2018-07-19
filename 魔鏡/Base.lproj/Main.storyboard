@@ -867,7 +867,7 @@ Cg
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="onTalk:" destination="qeS-3j-6jf" eventType="touchUpInside" id="Lg6-NM-Csf"/>
+                                    <action selector="onTalk:" destination="qeS-3j-6jf" eventType="touchUpInside" id="bAb-W1-UW3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZ7-IU-czd">
@@ -879,7 +879,7 @@ Cg
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="onStopTalk:" destination="qeS-3j-6jf" eventType="touchUpInside" id="iIG-IJ-wvG"/>
+                                    <action selector="onStopTalk:" destination="qeS-3j-6jf" eventType="touchUpInside" id="WFP-XA-pvo"/>
                                 </connections>
                             </button>
                         </subviews>

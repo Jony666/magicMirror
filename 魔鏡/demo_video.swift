@@ -18,7 +18,7 @@ class demo_video: UIViewController {
     }
 
     @IBAction func message_video(_ sender: Any) {
-        if let path = Bundle.main.path(forResource: "example", ofType: "mp4"){
+        if let path = Bundle.main.path(forResource: "globe", ofType: "mov"){
             let video = AVPlayer(url: URL(fileURLWithPath: path))
             let video_player = AVPlayerViewController()
             video_player.player = video
@@ -30,7 +30,7 @@ class demo_video: UIViewController {
     }
     
     @IBAction func display_video(_ sender: Any) {
-        if let path = Bundle.main.path(forResource: "example", ofType: "mp4"){
+        if let path = Bundle.main.path(forResource: "globe", ofType: "mov"){
             let video = AVPlayer(url: URL(fileURLWithPath: path))
             let video_player = AVPlayerViewController()
             video_player.player = video
@@ -42,7 +42,7 @@ class demo_video: UIViewController {
     }
     
     @IBAction func exterior_video(_ sender: Any) {
-        if let path = Bundle.main.path(forResource: "example", ofType: "mp4"){
+        if let path = Bundle.main.path(forResource: "preferences", ofType: "mov"){
             let video = AVPlayer(url: URL(fileURLWithPath: path))
             let video_player = AVPlayerViewController()
             video_player.player = video

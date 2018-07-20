@@ -30,7 +30,7 @@ class demo_video: UIViewController {
     }
     
     @IBAction func display_video(_ sender: Any) {
-        if let path = Bundle.main.path(forResource: "globe", ofType: "mov"){
+        if let path = Bundle.main.path(forResource: "IMG_4626", ofType: "mov"){
             let video = AVPlayer(url: URL(fileURLWithPath: path))
             let video_player = AVPlayerViewController()
             video_player.player = video
